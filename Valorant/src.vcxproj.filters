@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="client.cpp" />
+    <ClCompile Include="render\imgui.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\imgui_demo.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\imgui_draw.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\imgui_impl_dx9.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\imgui_impl_win32.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="render\imgui_widgets.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="client">
+      <UniqueIdentifier>{2b53feae-fdd5-4bdd-81ee-56c31543d513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{8d7be149-07cf-43f8-9cdc-6bfd1738a84f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imconfig.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imgui.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imgui_impl_dx9.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imgui_impl_win32.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imgui_internal.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imstb_rectpack.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imstb_textedit.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="render\imstb_truetype.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="check.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib" />
+    <Library Include="library_x64.lib" />
+  </ItemGroup>
+</Project>
