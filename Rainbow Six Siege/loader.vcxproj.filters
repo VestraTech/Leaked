@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="kdmapper">
+      <UniqueIdentifier>{a93f95c6-2500-4114-b4d5-d6f4e34e9029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{0fe0f2a0-f6f3-4938-9a5e-cecae049ec6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="features">
+      <UniqueIdentifier>{03b2ec50-f819-4a46-82c7-30be275b21bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper\intel_driver.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper\kdmapper.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper\portable_executable.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper\service.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper\utils.cpp">
+      <Filter>kdmapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="auth.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vmprotect.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\intel_driver.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\intel_driver_resource.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\kdmapper.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\nt.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\portable_executable.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\service.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\utils.hpp">
+      <Filter>kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="hexrays.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.hpp">
+      <Filter>features</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
