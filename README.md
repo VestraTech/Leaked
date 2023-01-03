@@ -14,7 +14,9 @@ Id: 1046640526029496320
 ```
 # Projects they own
 ```
-They currently run 2 projects called Ghetto reborn and Resolved E-Sports which are both complete pastes of other leaked sources. You can see this as both of there projects sell the same products and features that i leaked.
+They currently run 2 projects called Ghetto reborn and Resolved E-Sports.  
+These are both complete pastes of other leaked sources.  
+You can see this as both of there projects sell the same products and features that i leaked.  
 ```
 # Pictures
 ```
